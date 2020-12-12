@@ -1,0 +1,239 @@
+* {
+
+	font-family: Verdana,Geneva,sans-serif; 
+
+
+}
+
+/* Navbar */
+
+.navbar-brand {
+
+	font-size: 36px;
+	text-shadow: 2px 4px rgba(0,0,0,0.2);
+	font-weight: 900;
+	color: #3B90FF !important;
+
+}
+
+.navbar-nav .nav-link {
+
+	font-size: 18px;
+	text-shadow: 2px 3px rgba(0,0,0,0.1);
+	color: #000 !important;
+	text-align: center;
+
+}
+
+.custom-menu {
+
+	height: 100%;
+	width: 50%;
+	box-shadow:  4px 8px rgba(0,0,0,0.2);
+
+}
+
+.nav-link:hover {
+
+	background-color: #3B90FF;
+	border-radius: 20px;
+	box-shadow:  2px 4px rgba(0,0,0,0.2);
+	color: #fff !important;
+
+}
+
+/* END Navbar */
+
+
+/* Jumbotron  */
+
+.jumbotron {
+
+
+	background-image: url('../../img/background.png');
+	background-size: cover;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	height: 560px;
+	margin-top: 70px;
+	margin-bottom: 80px;
+
+}
+
+.t-title {
+
+	font-size: 48px;
+	text-shadow: 2px 3px rgba(0,0,0,0.1);
+	margin-bottom: 36px;
+	margin-top: -10px;
+
+}
+
+.t-subtitle {
+
+	color: #fff;
+	text-shadow: 2px 3px rgba(0,0,0,0.1);
+	text-align: justify;
+
+}
+
+.t-spesifikasi {
+
+	color: #fff;
+
+}
+
+.card {
+
+	box-shadow:  4px 8px rgba(0,0,0,0.2);
+
+
+}
+
+.card .card-body h1 {
+
+	text-align: center;
+	text-shadow: 2px 3px rgba(0,0,0,0.1);
+
+}
+
+.card .card-body span {
+
+	font-size: 18px;
+
+
+}
+
+.btn-beli {
+
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+	color: #3B90FF ;
+	padding-top: 20px;
+	padding-left: 44px;
+	padding-right: 44px;
+	padding-bottom: 20px;
+	box-shadow:  2px 4px rgba(0,0,0,0.2);
+	margin-top: 40px;
+
+}
+
+
+.btn-beli:focus {
+
+	outline:none;
+
+}
+
+.btn-beli:hover {
+
+	background: #3890FF;
+	color: #fff;
+
+}
+
+.cont-img {
+
+	margin-bottom: 80px;
+	border-radius: 15px;
+	background-color: #3890FF;
+	box-shadow:  2px 4px rgba(0,0,0,0.2);
+
+}
+.model-mobil {
+
+	margin-top: -60px;
+	height: 100%;
+	width: 140%;
+
+}
+
+/* END Jumbotron */
+
+
+/* Footer */
+
+.footer {
+
+	margin-top: 320px;
+
+}
+
+.footer p {
+
+	color: #ACACAC;
+	font-size: 16px;
+
+
+}
+
+/* END Footer */
+
+/* Model Version */
+@media (max-width: 576px){
+
+	.custom-menu {
+		display: none;
+		height: 40px;
+		width: 10%;
+		box-shadow:  4px 8px rgba(0,0,0,0.2);
+
+	}
+
+	.card {
+
+		box-shadow:  4px 8px rgba(0,0,0,0.2);
+		margin-bottom: 40px;
+
+	}
+
+
+	.t-title {
+
+		font-size: 48px;
+		margin-bottom: 80px;
+		margin-top: -10px;
+
+	}
+
+	.btn-beli {
+
+		background-color: #3B90FF;
+		border: none;
+		border-radius: 10px;
+		color: #fff ;
+		padding-top: 20px;
+		padding-left: 44px;
+		padding-right: 44px;
+		padding-bottom: 20px;
+		box-shadow:  2px 4px rgba(0,0,0,0.2);
+		margin-bottom: 86px;
+		margin-top: 10px;
+
+
+	}
+
+	.btn-beli:hover {
+
+		background: #fff ;
+		color :#3890FF;
+
+	}
+
+
+	.model-mobil {
+
+		margin-top: -60px;
+		height: 100%;
+		width: 100%;
+
+	}
+
+
+	.footer {
+
+		margin-top: 820px;
+
+	}
+}
